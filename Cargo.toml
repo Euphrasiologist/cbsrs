@@ -2,8 +2,9 @@
 name = "cbsrs"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Max Brown <max.carter-brown@aru.ac.uk>"]
+description = "A Circular Binary Segmentation algorithm"
+license = "MIT"
 
 [dependencies]
 rand = "0.8.5"
