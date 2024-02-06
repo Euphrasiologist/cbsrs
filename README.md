@@ -14,7 +14,7 @@ let p = 0.05;
 
 let res = steps.cbs(shuffles, p).unwrap();
 
-for (start, end) in res.iter() {
+for (start, end) in res {
   println!("{start}-{end}");
 }
 ```
